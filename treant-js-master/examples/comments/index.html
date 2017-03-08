@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title> Comments, selector example </title>
+    <link rel="stylesheet" href="../../Treant.css">
+
+    <link href="http://master.geniebelt.com/styles-58bb3500.css" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="http://master.geniebelt.com/assets/favicon-gpweb.png">
+    <link rel="apple-touch-icon" href="http://master.geniebelt.com/assets/favicon-dev.png">
+
+</head>
+<body>
+<div class="gb-content-container">
+  
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+  
+      <div class="navbar-header">
+  
+        <a href="http://master.geniebelt.com/#/dashboard"><div class="brand"></div></a>
+  
+      </div>
+  
+      <div class="collapse navbar-collapse">
+  
+        <ul class="nav navbar-nav nav-tabs navbar-left">
+          <li class="active">
+            <a id="dashboardTabLink" href="http://master.geniebelt.com/#/dashboard" target="">Projects</a>
+          </li>
+          <li><a href="http://master.geniebelt.com/#/drill-down" target="">Drill down</a></li>
+          <li><a href="http://master.geniebelt.com/#/budget" target="">Budget</a></li>
+          <li><a href="http://master.geniebelt.com/#/future-tasks-report" target="">Task sheet</a></li>
+        </ul>
+  
+        <ul class="nav navbar-right navbar-options text-right" style="margin-right: 0 !important;">        
+          <li>
+            <div class="dropdown profile-menu">
+              <div>
+                <a id="user-picture">
+                  <span class="user-icon">
+                    <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/17751/82c5a82b4de43dc9ffa744e3a9774cd7be2b2ede_thumb.png?1477581493'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown language-menu">
+              <a class="dropdown-toggle language-current" id="current-flag" style="background-image: url('http://master.geniebelt.com/bower_components/flag-icon-css/flags/1x1/gb.svg');"></a>
+            </div>
+          </li>
+          <li>
+            <div class="connected-indicator">
+              <i class="genicon-cloud-tick online"></i>
+            </div>
+          </li>
+          <li>
+            <span id="IntercomButton"><i class="genicon-bubble-question-square"></i></span>
+          </li>
+        </ul>
+  
+      </div>
+  
+    </div>
+  </nav> 
+  
+  <div class="btn-toolbar gb-btn-toolbar">
+    <div class="container-fluid p-x-0">
+      <div class="pull-right m-b-0 toolbar-search f-w-300">
+        <div class="form-group" search-string="dashboardFilter" input-id="searchFilter" placeholder="pp6">
+          <div class="form-inline">
+            <i class="gb-input-group-addon genicon-magnify-compact"></i>
+            <input class="form-control gb-toolbar-search" id="searchFilter" type="text" placeholder="Search" autofocus="" style="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-t-4 project-outer-container text-center">
+
+    <div class="comments" style="display: none;">
+        <ul>
+            <li>
+                <div class="project-box project-item" id="level1">
+                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/17771/9daac88e6868f875521d5750be53459e63d80b85_dashboard.jpg?1480082195'); background-size: cover; background-position: center center;"></div>
+            
+                  <div class="project-info-bar">
+                    <div class="project-title l-h-125 text-center">0 - Placeholder &amp; Status</div>
+                    <div class="project-percentage">
+                        <span class="actual-lower-expected">40<small>%</small></span>
+                    </div>
+                    <div class="project-user avatar-28">
+                      <span class="user-icon">
+                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/17751/82c5a82b4de43dc9ffa744e3a9774cd7be2b2ede_thumb.png?1477581493'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(255, 116, 4) 0px, rgb(255, 116, 4) 40%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 49%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                </div>
+                <ul>
+                    <li>
+                        <div class="project-box project-item" id="level2-1">
+                          <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/7963/65a306b98122fd7d581977d75f13261fc504e791_dashboard.jpg?1466632657'); background-size: cover; background-position: center center;"></div>
+                    
+                          <div class="project-info-bar">
+                            <div class="project-title l-h-125 text-center">00 - HAIL SEASER</div>
+                            <div class="project-percentage">
+                                <span class="actual-lower-expected">90<small>%</small></span>
+                            </div>
+                            <div class="project-user avatar-28">
+                              <span class="user-icon">
+                                <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/8600/dc24256dbdb8511766d66b556b434e78b68d5bf8_thumb.png?1464158835'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(255, 116, 4) 0px, rgb(255, 116, 4) 90%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="project-box project-item" id="level2-1-level3-1">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/18036/504c2f05cca766d436cfb22503feb406a97c7058_dashboard.jpg?1488449175'); background-size: cover; background-position: center center;"></div>
+                            
+                                  <div class="project-info-bar">
+                                    <div class="project-title l-h-125 text-center">02 - FREE PROJECT</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">0<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url(''); background-color: rgb(204, 102, 51);">NF</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 0%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 18%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-box project-item" id="level2-1-level3-2">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/6130/00d2c1aeb93fee4093fc29b9338e52d4e19b4963_dashboard.jpg?1466632679'); background-size: cover; background-position: center center;"></div>
+                            
+                                  <div class="project-info-bar" >
+                                    <div class="project-title l-h-125 text-center">02 - HTML To Do</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">11<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/8600/dc24256dbdb8511766d66b556b434e78b68d5bf8_thumb.png?1464158835'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 11%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="project-box project-item" id="level2-2">
+                          <div class="project-box-content"></div>
+                    
+                          <div class="project-info-bar">
+                            <div class="project-title l-h-125 text-center">00 - LOCKED PROJECT</div>
+                            <div class="project-percentage">
+                                <span class="actual-lower-expected">0<small>%</small></span>
+                            </div>
+                            <div class="project-user avatar-28">
+                              <span class="user-icon">
+                                <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/17751/82c5a82b4de43dc9ffa744e3a9774cd7be2b2ede_thumb.png?1477581493'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(109, 191, 135) 0px, rgb(109, 191, 135) 0%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 0%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="project-box project-item" id="level2-2-level3-1">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/6128/e3df1a6f902bb9f727b1e85292c8df29b47d922f_dashboard.jpg?1466633573'); background-size: cover; background-position: center center;"></div>
+                            
+                                  <div class="project-info-bar" >
+                                    <div class="project-title l-h-125 text-center">03 - Android To Do</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">1<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/8600/dc24256dbdb8511766d66b556b434e78b68d5bf8_thumb.png?1464158835'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 1%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="project-box project-item" id="level2-1-level3-1-level4-1">
+                                          <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/17980/3319dbb76db3c19dbd65e3e38e8809b70a41bcd7_dashboard.jpg?1484743198'); background-size: cover; background-position: center center;"></div>
+                                    
+                                          <div class="project-info-bar">
+                                            <div class="project-title l-h-125 text-center">THIS IS THE LINKED PROJECT</div>
+                                            <div class="project-percentage">
+                                                <span class="actual-greater-expected">20<small>%</small></span>
+                                            </div>
+                                            <div class="project-user avatar-28">
+                                              <span class="user-icon">
+                                                <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/17751/82c5a82b4de43dc9ffa744e3a9774cd7be2b2ede_thumb.png?1477581493'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                              </span>
+                                            </div>
+                                          </div>
+                                          <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(109, 191, 135) 0px, rgb(109, 191, 135) 20%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 0%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="project-box project-item" id="level2-2-level3-2">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/6129/b287e93c5f801a7b8a4c6ab73caff17f5e823d51_dashboard.jpg?1466634575'); background-size: cover; background-position: center center;"></div>
+                            
+                                  <div class="project-info-bar">
+                                    <div class="project-title l-h-125 text-center">04 - iOS To Do</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">10<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/8600/dc24256dbdb8511766d66b556b434e78b68d5bf8_thumb.png?1464158835'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 10%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="project-box project-item" id="level2-1-level3-2-level4-1">
+                                          <div class="project-box-content"></div>
+                                    
+                                          <div class="project-info-bar">
+                                            <div class="project-title l-h-125 text-center">Another Project</div>
+                                            <div class="project-percentage">
+                                                <span class="actual-lower-expected">0<small>%</small></span>
+                                            </div>
+                                            <div class="project-user avatar-28">
+                                              <span class="user-icon">
+                                                <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/17751/82c5a82b4de43dc9ffa744e3a9774cd7be2b2ede_thumb.png?1477581493'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                              </span>
+                                            </div>
+                                          </div>
+                                          <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(109, 191, 135) 0px, rgb(109, 191, 135) 0%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 0%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="project-box project-item" id="level2-3">
+                          <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/18043/6e2116dcfc2acd3855266e26116466f38dbdbcca_dashboard.jpg?1488971605'); background-size: cover; background-position: center center;"></div>
+                    
+                          <div class="project-info-bar">
+                            <div class="project-title l-h-125 text-center">01 - TRIAL PROJECT</div>
+                            <div class="project-percentage">
+                                <span class="actual-greater-expected">0<small>%</small></span>
+                            </div>
+                            <div class="project-user avatar-28">
+                              <span class="user-icon">
+                                <span class="user-icon-img" style="background-image: url(''); background-color: rgb(102, 51, 204);">NL</span>
+                              </span>
+                            </div>
+                          </div>        
+                          <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(109, 191, 135) 0px, rgb(109, 191, 135) 0%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 0%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="project-box project-item" id="level2-3-level3-1">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/15141/da6499af6b1689c1d39ababcf9e5d3c23143fb75_dashboard.jpg?1464162467'); background-size: cover; background-position: center center;"></div>
+                                
+                                  <div class="project-info-bar">
+                                    <div class="project-title l-h-125 text-center">2016 Roadmap</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">41<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/8600/dc24256dbdb8511766d66b556b434e78b68d5bf8_thumb.png?1464158835'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 41%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-box project-item" id="level2-3-level3-2">
+                                  <div class="project-box-content" style="background-image: url('https://cdn-m.gb4.me/attachments/17553/bb8abe7cbde4dafa0332da993ccbaa2cb28eadc7_dashboard.jpg?1475149140'); background-size: cover; background-position: center center;"></div>
+                            
+                                  <div class="project-info-bar">
+                                    <div class="project-title l-h-125 text-center">Overview Sept 2016 Sandbox</div>
+                                    <div class="project-percentage">
+                                        <span class="actual-lower-twice-expected">43<small>%</small></span>
+                                    </div>
+                                    <div class="project-user avatar-28">
+                                      <span class="user-icon">
+                                        <span class="user-icon-img" style="background-image: url('https://cdn-m.gb4.me/attachments/7058/f9131019d3aa83b4c6c37303caf3bceb8c31798f_thumb.png?1464158795'); background-color: rgb(220, 218, 210);">&nbsp;</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="progress-bar" style="background-image: linear-gradient(90deg, rgb(241, 43, 94) 0px, rgb(241, 43, 94) 43%, rgb(92, 103, 106) 0%, rgb(92, 103, 106) 100%, rgb(139, 133, 135) 0%, rgb(139, 133, 135) 100%);"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+    <div class="chart" id="OrganiseChart8"></div>
+    
+    <script src="../../vendor/raphael.js"></script>
+    <script src="../../Treant.js"></script>
+
+    
+    <script src="example8.js"></script>
+    <script>
+        new Treant( tree_structure );
+    </script>
+</body>
+</html>
