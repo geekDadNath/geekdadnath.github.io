@@ -2,8 +2,8 @@
         chart: {
             container: "#geniebelt-portfolio",
             levelSeparation:    70,
-            siblingSeparation:  60,
-            nodeAlign: "BOTTOM",
+            siblingSeparation:  32,
+            nodeAlign: "TOP",
             animateOnInit: true,            
             node: {
                 collapsable: true
