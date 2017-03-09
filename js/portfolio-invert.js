@@ -1,9 +1,9 @@
 var tree_structure = {
   chart: {
     container: "#geniebelt-portfolio",
-    levelSeparation: 48,
-    siblingSeparation: 24,
-    subTeeSeparation: 100,
+    levelSeparation: 24,
+    siblingSeparation: 16,
+    subTeeSeparation: 48,
     nodeAlign: "TOP",
     animateOnInit: true,      
     node: {
@@ -14,7 +14,7 @@ var tree_structure = {
       style: {
         "stroke-width": 2,
         "stroke": "#dcdad2",
-        "arrow-end": "classic-wide-long"
+        "arrow-end": "classic-wide"
       }
     },
     animation: {

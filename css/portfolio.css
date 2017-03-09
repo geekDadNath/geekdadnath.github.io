@@ -21,19 +21,6 @@
   background: none;
 }
 
-.invert {
-  background: #373334;
-}
-.invert .navbar-inverse {
-  min-height: 48px !important;
-  border-bottom: none !important;
-}
-.invert .Treant .node.collapsed {
-  background-color: none;
-  box-shadow: 0 0 6px 2px #97C94E;
-}
-
-
 .project-outer-container .project-box {
   width: 300px;
   height: 200px;
@@ -90,3 +77,89 @@
   background-position: center center !important;
 }
 
+
+.invert {
+  background: #373334;
+}
+.invert .navbar-inverse {
+  min-height: 48px !important;
+  border-bottom: none !important;
+  background: none !important;
+}
+.invert .Treant .node.collapsed {
+  background-color: none;
+  box-shadow: 0 0 6px #97C94E;
+}
+.invert .Treant > .node { 
+  border-radius: 4px;
+}
+
+.invert .project-outer-container {
+  border-radius: 4px;
+}
+
+.invert .project-outer-container .project-item .project-info-bar {
+  height: 24px;
+}
+.invert .project-outer-container .project-item .project-info-bar .project-percentage {
+  left: 3px;
+  top: 0;
+  font-size: 14px;
+}
+.invert .project-outer-container .project-item .progress-bar {
+  height: 6px;
+}
+
+.invert .project-outer-container .project-item .project-info-bar .project-title {
+  left: 20px;
+  right: 4px;
+  top: 2px;
+}
+
+.invert .project-outer-container .project-box.first-level {
+  width: 300px;
+  height: 120px;
+}
+.invert .project-outer-container .project-item.first-level .project-info-bar .project-title {
+  font-size: 14px;
+  top: 4px;
+  right: 4px;
+}
+.invert .project-outer-container .project-item.first-level .project-info-bar {
+  height: 32px;
+}
+.invert .project-outer-container .project-item.first-level .project-info-bar .project-percentage {
+  left: 3px;
+  top: 3px;
+  font-size: 18px;
+}
+.invert .project-outer-container .project-item.first-level .progress-bar {
+  height: 8px;
+}
+
+.invert .project-outer-container .project-box.second-level {
+  width: 135px;
+  height: 90px;
+}
+.invert .project-outer-container .project-item.second-level .project-info-bar .project-title {
+  font-size: 11px;
+  top: 3px;
+}
+
+.invert .project-outer-container .project-box.third-level {
+  width: 120px;
+  height: 80px;
+}
+.invert .project-outer-container .project-item.third-level .project-info-bar .project-title {
+  font-size: 11px;
+  top: 3px;
+}
+
+.invert .project-outer-container .project-box.fourth-level {
+  width: 120px;
+  height: 70px;
+}
+.invert .project-outer-container .project-item.fourth-level .project-info-bar .project-title {
+  font-size: 10px;
+  top: 4px;
+}
