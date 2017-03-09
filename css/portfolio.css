@@ -21,6 +21,18 @@
   background: none;
 }
 
+.invert {
+  background: #373334;
+}
+.invert .navbar-inverse {
+  min-height: 48px !important;
+  border-bottom: none !important;
+}
+.invert .Treant .node.collapsed {
+  background-color: none;
+  box-shadow: 0 0 6px 2px #97C94E;
+}
+
 
 .project-outer-container .project-box {
   width: 300px;
