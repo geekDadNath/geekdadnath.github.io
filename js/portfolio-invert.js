@@ -3,7 +3,7 @@ var tree_structure = {
     container: "#geniebelt-portfolio",
     levelSeparation: 48,
     siblingSeparation: 24,
-    subTeeSeparation: 32,
+    subTeeSeparation: 100,
     nodeAlign: "TOP",
     animateOnInit: true,      
     node: {
