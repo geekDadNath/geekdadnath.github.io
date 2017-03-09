@@ -30,6 +30,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-1",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-1-level3-1",
@@ -90,6 +91,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-2",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-2-level3-1",
@@ -121,6 +123,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-3",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-3-level3-1"
@@ -142,6 +145,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-4",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-4-level3-1"
@@ -160,6 +164,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-5",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-5-level3-1"
@@ -172,6 +177,7 @@ var tree_structure = {
       {
         innerHTML: "#level2-6",
         collapsed: true,
+        stackChildren: true,
         children: [
           {
             innerHTML: "#level2-6-level3-1"
