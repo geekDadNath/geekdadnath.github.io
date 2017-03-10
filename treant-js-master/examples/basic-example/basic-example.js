@@ -199,6 +199,9 @@ var config = {
                         title: "Chief accounting officer",
                         contact: "Tel: 01 213 123 134",
                     },
+                    link: {
+                        href: "http://www.google.com"
+                    },
                     image: "../headshots/6.jpg",
                     children: [
                         {
