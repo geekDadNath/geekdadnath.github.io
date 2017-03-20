@@ -9,17 +9,54 @@
 }
 
 .Treant .collapse-switch {
-  width: 100%;
-  height: 100%;
+  top: 2px;
+  left: 2px;
+  width: 24px;
+  height: 24px;
   border: none;
+  border-radius: 12px;
+  background-color: #a7a59d;
+  transition: all 0.25s;
 }
+.Treant .collapse-switch:hover {
+  background-color: #97C94E;
+  transition: all 0.25s;
+}
+
 .Treant .node.collapsed {
   background-color: none;
-  box-shadow: 0 0 12px 3px #97C94E;
 }
 .Treant .node.collapsed .collapse-switch {
-  background: none;
+  background: #97C94E;
+  transition: all 0.25s;
 }
+.Treant .node.collapsed .collapse-switch:hover {
+  background: #85b045;
+  transition: all 0.25s;
+}
+
+.collapse-switch:after {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-family: "genicons";
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  content: "\e635";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  transform: rotate(0deg);
+  transition: all .25s;
+}
+.collapsed .collapse-switch {
+  transform: rotate(-90deg);
+  transition: all .25s;
+}
+
+
 
 .project-outer-container .project-box {
   width: 300px;
@@ -85,10 +122,6 @@
   min-height: 48px !important;
   border-bottom: none !important;
   background: none !important;
-}
-.invert .Treant .node.collapsed {
-  background-color: none;
-  box-shadow: 0 0 6px #97C94E;
 }
 .invert .Treant > .node { 
   border-radius: 4px;
