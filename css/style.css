@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'genicons';
-  src:  url('fonts/genicons.eot?8t1fkz');
-  src:  url('fonts/genicons.eot?8t1fkz#iefix') format('embedded-opentype'),
-    url('fonts/genicons.ttf?8t1fkz') format('truetype'),
-    url('fonts/genicons.woff?8t1fkz') format('woff'),
-    url('fonts/genicons.svg?8t1fkz#genicons') format('svg');
+  src:  url('fonts/genicons.eot?ktvh1p');
+  src:  url('fonts/genicons.eot?ktvh1p#iefix') format('embedded-opentype'),
+    url('fonts/genicons.ttf?ktvh1p') format('truetype'),
+    url('fonts/genicons.woff?ktvh1p') format('woff'),
+    url('fonts/genicons.svg?ktvh1p#genicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -624,7 +624,7 @@ i {
 .genicon-cloud-alert-compact:before {
   content: "\e644";
 }
-.genicon-cloud-danger:before {
+.genicon-cloud-alert:before {
   content: "\e645";
 }
 .genicon-cloud-refresh-compact:before {
