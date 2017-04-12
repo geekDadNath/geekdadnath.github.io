@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'genicons';
-  src:  url('fonts/genicons.eot?ktvh1p');
-  src:  url('fonts/genicons.eot?ktvh1p#iefix') format('embedded-opentype'),
-    url('fonts/genicons.ttf?ktvh1p') format('truetype'),
-    url('fonts/genicons.woff?ktvh1p') format('woff'),
-    url('fonts/genicons.svg?ktvh1p#genicons') format('svg');
+  src:  url('fonts/genicons.eot?4dr7lq');
+  src:  url('fonts/genicons.eot?4dr7lq#iefix') format('embedded-opentype'),
+    url('fonts/genicons.ttf?4dr7lq') format('truetype'),
+    url('fonts/genicons.woff?4dr7lq') format('woff'),
+    url('fonts/genicons.svg?4dr7lq#genicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.genicon-phase-second-compact:before {
+  content: "\e983";
+}
+.genicon-phase-second:before {
+  content: "\e984";
+}
 .genicon-eagle-solid-compact:before {
   content: "\e981";
 }
