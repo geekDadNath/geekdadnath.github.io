@@ -14,13 +14,12 @@ var tree_structure = {
       style: {
         "stroke-width": 2,
         "stroke": "#dcdad2",
-        "arrow-end": "classic-wide"
       }
     },
     animation: {
-      nodeAnimation: "easeOutBounce",
+      nodeAnimation: "easeOut",
       nodeSpeed: 700,
-      connectorsAnimation: "bounce",
+      connectorsAnimation: "easeOut",
       connectorsSpeed: 700
     }
   },
